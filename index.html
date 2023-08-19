@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+    <!-- <div class="loader" id="loader_container" >
+        <img style="border-radius: 50%;" src="images/8CLc.gif" height="300px" width="400px" />
+        <h5 style="font-size: 30px;">Loading...</h5>
+    </div> -->
+
+
+    <div class="container" id="container">
+
+        <div class="form">
+
+            <h3 class="app-heading"> signup </h3>
+            <hr>
+
+            <div class="form-content">
+
+                <div class="First">
+
+                    <b>Name</b><br>
+                    <input type="text" placeholder="Name" id="Name" required>
+
+                </div>
+
+                <div class="Last">
+
+                    <b> Father Name</b><br>
+                    <input type="text" placeholder="Father Name" id="fatherName" required>
+
+                </div>
+
+            </div>
+
+            <div class="email">
+
+                <b> Email</b><br>
+                <input type="email" placeholder="Enter your email" id="email" required>
+
+            </div>
+
+            <div class="password">
+
+                <b> Password </b><br>
+                <input type="password" placeholder="Enter new password" id="password" required>
+
+            </div>
+
+            <div class="get-img">
+
+                <b> Select image</b><br>
+                <input type="file">
+            </div>
+
+            <button id="register-btn"> Register </button>
+            <br><br>
+            <p class="sign">Already signed up? <button class="login" id="log-now-btn">Login now</button> </p>
+
+        </div>
+    </div>
+
+
+    <div class="container-2" id="login-container">
+
+        <div class="login-form">
+
+            <h1 class="app-heading">login</h1>
+            <hr>
+
+
+
+            <div class="email">
+
+                <b> Email</b><br>
+                <input type="email" placeholder="Enter your email" id="login_email">
+
+            </div>
+
+            <div class="password">
+
+                <b> Password </b><br>
+                <input type="password" placeholder="Enter new password" id="login_password">
+
+            </div>
+
+
+
+            <button id="login_btn"> login </button>
+            <br><br>
+            <p class="sign">Not yet registered? <button class="login" id="reg-now-btn">register now</button> </p>
+
+        </div>
+    </div>
+
+
+    <div id="content-container">
+        
+        <button id="log-out"> log out </button>
+    </div>
+
+
+
+
+
+
+
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
